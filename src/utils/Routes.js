@@ -6,25 +6,19 @@ import PrivateRoute from "./PrivateRoute";
 export default function Router() {
   return (
     <Routes>
+      <Route path="/main" element={<PrivateRoute element={<MainPage />} />} />
       <Route
-        path="/invoice-form/main"
-        element={<PrivateRoute element={<MainPage />} />}
-      />
-      <Route
-        path="/invoice-form/login"
+        path="/login"
         element={
           !!localStorage.getItem("session") ? (
-            <Navigate to="/invoice-form/main" replace />
+            <Navigate to="/main" replace />
           ) : (
             <LoginPage />
           )
         }
       />
-      <Route
-        path="/invoice-form"
-        element={<Navigate to="/invoice-form/login" replace />}
-      />
-      <Route path="*" element={<Navigate to="/invoice-form" replace />} />
+      <Route path="/" element={<Navigate to="/login" replace />} />
+      <Route path="*" element={<Navigate to="" replace />} />
     </Routes>
   );
 }

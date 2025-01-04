@@ -21,7 +21,7 @@ const Login = () => {
         values.password === credentials.password
       ) {
         localStorage.setItem("session", JSON.stringify(values));
-        navigate("/invoice-form/main");
+        navigate("/main");
       } else {
         setError("Invalid username or password");
       }
