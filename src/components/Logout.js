@@ -12,7 +12,7 @@ function Logout() {
 
     // Use a setTimeout to guarantee execution order, if needed
     setTimeout(() => {
-      navigate("/login");
+      navigate("/invoice-form/login");
       window.location.reload();
     }, 0);
   };
