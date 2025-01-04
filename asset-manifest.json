@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/invoice-form/static/css/main.f855e6bc.css",
-    "main.js": "/invoice-form/static/js/main.a8e9b14c.js",
+    "main.js": "/invoice-form/static/js/main.305f9dc9.js",
     "static/js/453.beac7b7c.chunk.js": "/invoice-form/static/js/453.beac7b7c.chunk.js",
     "static/media/scanLogo1.png": "/invoice-form/static/media/scanLogo1.0bcedb46b50c095eeaff.png",
     "index.html": "/invoice-form/index.html",
     "main.f855e6bc.css.map": "/invoice-form/static/css/main.f855e6bc.css.map",
-    "main.a8e9b14c.js.map": "/invoice-form/static/js/main.a8e9b14c.js.map",
+    "main.305f9dc9.js.map": "/invoice-form/static/js/main.305f9dc9.js.map",
     "453.beac7b7c.chunk.js.map": "/invoice-form/static/js/453.beac7b7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.a8e9b14c.js"
+    "static/js/main.305f9dc9.js"
   ]
 }
