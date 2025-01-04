@@ -1,0 +1,32 @@
+[
+  {
+    "vendor": "A - 1 Exterminators",
+    "address": "550 Main St., Lynn",
+    "contact": "+911-122345678",
+    "owner": "Pradeep Singh"
+  },
+  {
+    "vendor": "Tech Solutions Ltd.",
+    "address": "221 Baker St., London",
+    "contact": "+44-2076543210",
+    "owner": "John Watson"
+  },
+  {
+    "vendor": "Green Earth Supplies",
+    "address": "12 Elm Ave., Seattle",
+    "contact": "+1-2061234567",
+    "owner": "Susan Green"
+  },
+  {
+    "vendor": "Speedy Logistics",
+    "address": "45 Industrial Rd., Chicago",
+    "contact": "+1-3129876543",
+    "owner": "Robert Lang"
+  },
+  {
+    "vendor": "Future Energy Corp.",
+    "address": "89 Solar Dr., San Francisco",
+    "contact": "+1-4156547890",
+    "owner": "Emily Clarke"
+  }
+]

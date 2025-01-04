@@ -1,0 +1,31 @@
+{
+  "vendorDetails": {
+    "vendorInformation": {
+      "vendor": ""
+    }
+  },
+  "invoiceDetails": {
+    "generalInformation": {
+      "purchaseOrderNumber": ""
+    },
+    "invoiceDetails": {
+      "invoiceNumber": "",
+      "invoiceDate": "",
+      "totalAmount": "",
+      "paymentTerms": "",
+      "invoiceDueDate": "",
+      "glPostDate": "",
+      "invoiceDescription": ""
+    },
+    "expenseDetails": {
+      "lineAmount": "",
+      "department": "",
+      "account": "",
+      "location": "",
+      "description": ""
+    }
+  },
+  "comments": {
+    "comment": ""
+  }
+}
